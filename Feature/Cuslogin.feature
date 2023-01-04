@@ -1,7 +1,7 @@
 @regression
 Feature: As an end user i want to login to the cadency and view the dashboard page
 
-  Scenario: samra
+  Background: : samra
     Given Launch the Browser
     When User is at login Page
 
