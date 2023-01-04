@@ -57,6 +57,10 @@ def step_impl(context):
         context.driver = webdriver.Edge(executable_path=EdgeChromiumDriverManager().install())
 
     context.driver.maximize_window()
-    context.loginpage = login(context.driver)
 
+@when("User is at login Page")
+def step_impl(context):
 
+   context.driver.get(TestData.CUSTOMERPORTAL)
+   context.loginpage = login(context.driver)
+   time.sleep(5)

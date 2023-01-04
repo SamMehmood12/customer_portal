@@ -6,11 +6,7 @@ from Constant.URL import TestData
 from Pages.pglogin import login
 
 
-@when("User is at login Page")
-def step_impl(context):
 
-   context.driver.get(TestData.CUSTOMERPORTAL)
-   time.sleep(5)
 #
 # # @then("User Enters abc123 and pJPAiUshc541")
 # # def step_impl(context):
