@@ -9,6 +9,7 @@ class loginelements(BasePage):
   loginbtn=(By.XPATH ,"//span[normalize-space()='Login']")
   options=(By.XPATH, "//span[@class='p-button-label']")
   logout=(By.XPATH, "//a[normalize-space()='Logout']")
+  #sddd
 
 
 
