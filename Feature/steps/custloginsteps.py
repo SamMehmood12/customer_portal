@@ -18,7 +18,7 @@ from Pages.pglogin import login
 def step_impl(context , uname ,pwd ):
     context.loginpage.enter_username(uname)
     context.loginpage.enter_password(pwd)
-
+time.sleep(10)
 
 @then("User Clicks on Login Button")
 def step_impl(context):
